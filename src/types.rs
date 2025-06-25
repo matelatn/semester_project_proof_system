@@ -69,8 +69,8 @@ pub const N: usize     = 3;
 /// Gadget height τ
 pub const TAU: usize   = 1;
 /// Gadget width (log₂ q)
-pub const ALPHA: usize = 4;
+pub const ALPHA: usize = 10;
 /// Infinity-norm bound β
 pub const BETA: FieldElement = 2;
 /// Field modulus q = 2ᵅ
-pub const Q: FieldElement = 1 << ALPHA;
+pub const Q: FieldElement = 563;

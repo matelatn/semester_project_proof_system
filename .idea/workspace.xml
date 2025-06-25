@@ -11,7 +11,10 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9737895-962c-4c02-809a-598b1f73b601" name="Changes" comment="" />
+    <list default="true" id="c9737895-962c-4c02-809a-598b1f73b601" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +98,7 @@
       <workItem from="1750267465949" duration="6332000" />
       <workItem from="1750668290337" duration="1962000" />
       <workItem from="1750695480838" duration="17353000" />
-      <workItem from="1750790851838" duration="10917000" />
+      <workItem from="1750790851838" duration="15994000" />
     </task>
     <servers />
   </component>
