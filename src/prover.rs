@@ -37,7 +37,7 @@ impl Prover {
 
             // Advance to next round
             w_i = next_wi(&w_i, &c_ip1, ELL - i);
-            x_i = next_xi(&x_i, &z_i, &transcript, seed);
+            x_i = next_xi(&x_i, &z_i, &transcript, &c_ip1);
         }
 
         // Final output z_ℓ = last f_vec

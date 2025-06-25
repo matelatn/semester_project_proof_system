@@ -146,10 +146,10 @@ pub fn next_xi(
     xi: &XiData,
     zi: &ZiData,
     transcript: &Transcript,
-    seed: &[u8],
+    c: &Challenge,
 ) -> XiData {
     println!("--- NextX step ---");
-    let c = challenge(transcript, seed);
+    
     let c_t: Matrix = transpose(&c)
         .into_iter()
         .map(|r| r.into_iter().map(|b| b as FieldElement).collect())

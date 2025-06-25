@@ -36,7 +36,7 @@ impl Verifier {
 
             // 3) Compute next instance
             let c_ip1 = challenge(&transcript, seed);
-            x_i = next_xi(&x_i, &zs[i], &transcript, seed);
+            x_i = next_xi(&x_i, &zs[i], &transcript, &c_ip1);
         }
 
         println!("✅ All verification rounds passed");
